@@ -1,0 +1,50 @@
+body {
+  background:#bda4df;
+  font-family: "Times New Roman", Times, serif;
+  height:100%;
+  text-align:center;
+  font-size: 25px;
+  color:white;
+}
+#my-word {
+  display: block;
+  margin: 0;
+}
+#my-word li {
+  display: inline-block;
+  padding: 0 5px;
+  font-size: 25px;
+}
+#alphabet li {
+  display: block;
+  float: right;
+  margin: 0 5px 10px 0;
+  list-style: none;
+  width: 64px;
+  padding-top: 10px;
+  background: #7C79A2;
+  color: white;
+  cursor: pointer;
+  border: solid 1px black;
+  text-transform: uppercase
+}
+#alphabet li:hover{
+  background:#F57D7C;
+  border: solid 1px black;
+  color:#FFC1A6;
+}
+#mylives{
+  font-size: 25px;
+  text-align:center;
+  display:block;
+}
+button{
+  background:#e48383;
+  color:white;
+  border: solid 1px white;
+  cursor:pointer;
+  font-size: 30px;
+  padding:35px 20px;
+  width:250px;
+  justify-content:center;
+}
